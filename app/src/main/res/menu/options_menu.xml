@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/refresh_menu"
+        android:icon="@android:drawable/stat_notify_sync_noanim"
+        android:title="Refresh List"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search"
+        android:actionViewClass="android.widget.SearchView"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always" />
+
+
+    <item
+        android:title="BTC Coin"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title="ETH Coin"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/exitMain"
+        android:title="Exit"
+        app:showAsAction="ifRoom" />
+
+</menu>
